@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #1e1e2e;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: #282a36;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Coin Counter */
+.coins {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+#coin-count {
+  font-weight: bold;
+  color: #ffd700; /* Golden color for coins */
+}
+
+/* Box List */
+.box-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.box-list button {
+  background-color: #44475a;
+  color: #50fa7b;
+  border: 1px solid #6272a4;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.box-list button:hover {
+  background-color: #6272a4;
+  transform: translateY(-2px);
+}
+
+.box-list button:active {
+  transform: translateY(1px);
+}
+
+/* Brawlers List */
+.brawler-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.brawler {
+  background-color: #6272a4;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+  color: #f8f8f2;
+}
+
+/* Result Message */
+.result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #ff79c6; /* Bright pink color for results */
+}

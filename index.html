@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brawler Exchange & Boxes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Brawler Box Opening</h1>
+        <div class="coins">
+            <span>Coins: <span id="coin-count">0</span></span>
+        </div>
+        <div id="boxes" class="box-list">
+            <!-- List of boxes to open -->
+            <button onclick="openBox('brawlBox')">Brawl Box</button>
+            <button onclick="openBox('bigBox')">Big Box</button>
+            <button onclick="openBox('megaBox')">Mega Box</button>
+            <button onclick="openBox('omegaBox')">Omega Box</button>
+            <button onclick="openBox('deadBox')">Dead Box</button>
+            <button onclick="openBox('legendaryBox')">Legendary Box (100 coins)</button>
+        </div>
+        <div id="brawlers-list" class="brawler-list">
+            <!-- Display brawlers user has collected -->
+        </div>
+        <div id="result" class="result">
+            <!-- Box opening result -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
